@@ -110,11 +110,8 @@ app.post('/api/animals', (req, res) => {
         res.status(400).send('The animal is not properly formatted.');
     } else {
         const animal = createNewAnimal(req.body, animals);
+        res.json(animal);
     }
-
-    
-    console.log(req.body);
-    res.json(req.body);
 });
 
 app.listen(PORT, () => {
