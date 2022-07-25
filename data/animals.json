@@ -112,11 +112,20 @@
     {
       "name": "Roman",
       "species": "panther",
-      "diet": "carnivor",
+      "diet": "carnivore",
       "personalityTraits": [
         "loving"
       ],
       "id": "11"
+    },
+    {
+      "name": "Steve",
+      "species": "sheep",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "12"
     }
   ]
 }
